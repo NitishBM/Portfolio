@@ -1,0 +1,87 @@
+/* Nav Bar Start */
+nav{
+    display:grid;
+    justify-content:flex-end;
+    align-items: end;
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color: rgb(0, 0, 0);
+    color:rgb(178, 178, 1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    /* list-style: none; */
+    font-size: 18px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* margin: 15px; */
+}
+
+nav ul li a{
+    /* text-decoration: none; */
+    color: rgb(178, 178, 1);
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 0);
+    font-size: 1.3rem;
+}
+
+.left {
+    /* font-size: 20px; */
+}
+
+/* Nav Bar End */
+
+/* Home Page Start */
+
+.name{
+    color: white;
+    display: flex;
+    justify-items: flex-start;
+    padding: 40px;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.desc{
+    color:rgb(178, 178, 1);
+}
+
+.info{
+    color: white;
+    display: flex;
+    justify-items: flex-start;
+    padding: 40px;
+    margin-top: -60px;
+    font-size: 50px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:rgb(178, 178, 1);
+}
+
+nav img{
+    width: 50px;
+    height: 40px;
+}
+
+/* Home Page End */
+
+/* Contact Page Start */
+.forms{
+    padding: 50px;
+    background-color: black;
+    color: rgb(178, 178, 1);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.form-control {
+    background-color: black;
+}
