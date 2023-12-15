@@ -16,7 +16,7 @@ nav ul {
 nav ul li {
     /* list-style: none; */
     font-size: 18px;
-    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif;
     /* margin: 15px; */
 }
 
@@ -73,6 +73,16 @@ nav img{
 
 /* Home Page End */
 
+/* About Page Start */
+.container-fluid {
+    background-color: ;
+}
+.accordion-body {
+    background-color: black;
+    color:rgb(178, 178, 1) ;
+}
+/* About Page End */
+
 /* Contact Page Start */
 .forms{
     padding: 50px;
@@ -85,3 +95,5 @@ nav img{
 .form-control {
     background-color: black;
 }
+/* Contact Page End */
+
