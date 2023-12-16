@@ -63,7 +63,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    color:rgb(178, 178, 1);
+    color:rgb(255, 255, 255);
 }
 
 nav img{
@@ -84,14 +84,14 @@ nav img{
     /* --bs-accordion-active-color:white; */
     /* --bs-accordion-btn-focus-box-shadow:none; */
     background-color: rgb(14, 14, 14) !important;
-    color: rgb(178, 178, 1) !important;
+    color: rgb(255, 255, 255) !important;
     /* position: relative; */
     box-shadow: none !important;
 }
 
 .accordion-body {
     background-color: rgb(30, 30, 30);
-    color: rgb(178, 178, 1);
+    color: rgb(255, 255, 255);
 }
 
 .accordion-button:not(.collapsed) {
@@ -103,7 +103,7 @@ nav img{
 .forms{
     padding: 50px;
     background-color: rgb(0, 0, 0);
-    color: rgb(178, 178, 1);
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
 
 }
