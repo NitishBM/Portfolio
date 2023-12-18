@@ -1,3 +1,7 @@
+/* Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@200&display=swap');
+
+
 /* Nav Bar Start */
 nav{
     display:grid;
@@ -16,7 +20,8 @@ nav ul {
 nav ul li {
     /* list-style: none; */
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;a
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: poppins;
     /* margin: 15px; */
 }
 
@@ -27,6 +32,10 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(255, 255, 0);
     font-size: 1.3rem;
+}
+
+.logoimg {
+    border-radius: 100px;
 }
 
 /* .left {
@@ -44,10 +53,14 @@ nav ul li a:hover{
     padding: 40px;
     margin-top: 150px;
     font-size: 30px;
+    font-family: poppins;
+
 }
 
 .desc{
     color:rgb(178, 178, 1);
+    font-family: poppins;
+
 }
 
 .info{
@@ -57,6 +70,8 @@ nav ul li a:hover{
     padding: 40px;
     margin-top: -60px;
     font-size: 50px;
+    font-family: poppins;
+
 }
 
 .foot{
@@ -87,11 +102,14 @@ nav img{
     color: rgb(255, 255, 255) !important;
     /* position: relative; */
     box-shadow: none !important;
+    font-family: poppins;
+
 }
 
 .accordion-body {
     background-color: rgb(30, 30, 30);
     color: rgb(255, 255, 255);
+    font-family: poppins;
 }
 
 .accordion-button:not(.collapsed) {
@@ -104,7 +122,9 @@ nav img{
     padding: 50px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: poppins;
+
 
 }
 
