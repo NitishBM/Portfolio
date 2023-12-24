@@ -58,7 +58,7 @@ nav ul li a:hover{
 }
 
 .desc{
-    color:rgb(178, 178, 1);
+    color:#5d5f61;
     font-family: poppins;
 
 }
@@ -116,6 +116,17 @@ nav img{
     box-shadow: none;
 }
 /* About Page End */
+
+/* Project Page Start */
+.Card {
+    /* margin: 80px; */
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Project Page End */
 
 /* Contact Page Start */
 /* .forms{
