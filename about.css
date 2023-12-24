@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@200&display=swap');
+
+
+
+/* Nav Bar Start */
+nav{
+    display:grid;
+    justify-content:flex-end;
+    align-items: end;
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color: rgb(0, 0, 0);
+    color:rgb(178, 178, 1);
+}
+
+nav ul {
+    display:flex;
+    justify-content:end;
+}
+
+nav ul li {
+    /* list-style: none; */
+    font-size: 18px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: poppins;
+    /* margin: 15px; */
+}
+
+nav ul li a{
+    /* text-decoration: none; */
+    color: rgb(178, 178, 1);
+}
+nav ul li a:hover{
+    /* color: rgb(255, 255, 0); */
+    font-size: 1.2rem;
+}
+
+.logoimg {
+    border-radius: 100px;
+    width: 50px;
+    height: 40px;
+}
+
+/* .left {
+    font-size: 20px;
+} */
+
+/* Nav Bar End */
+
+/* About Page Start */
+
+.accordion-button {
+    /* --bs-accordion-bg:black;  */
+    /* --bs-accordion-color:black; */
+    /* --bs-accordion-btn-bg : rgb(35, 35, 35); */
+    /* --bs-accordion-btn-color:white; */
+    /* --bs-accordion-active-bg:black; */
+    /* --bs-accordion-active-color:white; */
+    /* --bs-accordion-btn-focus-box-shadow:none; */
+    background-color: rgb(14, 14, 14) !important;
+    color: rgb(255, 255, 255) !important;
+    /* position: relative; */
+    box-shadow: none !important;
+    font-family: poppins;
+
+}
+
+.accordion-body {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.btn {
+    margin: 10px;
+    padding: 20px;
+}
+/* About Page End */
